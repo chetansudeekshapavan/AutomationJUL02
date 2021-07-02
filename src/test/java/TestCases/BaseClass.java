@@ -33,7 +33,7 @@ public class BaseClass {
 	@BeforeClass
 	public  void setUp() throws InterruptedException
 	{
-		logger=Logger.getLogger("Enetbanking");
+		logger=Logger.getLogger("Enetbanking2");
 		PropertyConfigurator.configure("log4j.properties");
         System.setProperty("webdriver.chrome.driver",rc.getChropath());
 		driver=new ChromeDriver();
