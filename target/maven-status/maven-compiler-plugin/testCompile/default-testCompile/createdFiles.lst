@@ -1,0 +1,9 @@
+TestUtils\XLUtils.class
+PageObjects\LoginPageobjects.class
+PageObjects\RegistrationPageobjects.class
+TestCases\LoginTest.class
+TestUtils\Read_Config.class
+TestUtils\Report.class
+TestCases\RegistrationTest.class
+TestCases\BaseClass.class
+TestCases\Login_DDF.class

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestUtils.Report"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="TestCases.Login_DDF"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.Login_DDF">
+        <methods>
+          <include name="LoginDDF" invocation-numbers="1 2 3"/>
+          <include name="setUp"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- TestCases.Login_DDF -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
